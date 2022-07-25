@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    position: relative;
+    background-color: #444;
+    margin: 0px;
+}
+
+.circle {
+    height: 135px;
+    width: 125px;
+    background-color: #bbb;
+    margin-top: 245px;
+    margin-left: 695px;
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+
+
+}
+
+.neck {
+    height: 30px;
+    width: 55px;
+    margin-top: 222px;
+    margin-left: 730px;
+    position: absolute;
+    background-color: #bbb;
+}
+
+.ring1 {
+    height: 5px;
+    width: 55px;
+    background-color: dimgrey;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 730px;
+}
+
+.ring2 {
+    height: 5px;
+    width: 55px;
+    background-color: dimgrey;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 730px;
+}
+
+
+.ring3 {
+    height: 5px;
+    width: 55px;
+    background-color: dimgrey;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 730px;
+}
+
+.head {
+    height: 40px;
+    width: 55px;
+    background-color: #000;
+    margin-top: 190px;
+    margin-left: 730px;
+    position: absolute;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.topa {
+    height: 10px;
+    width: 25px;
+    background-color: dimgray;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-top: 182px;
+    margin-left: 745px;
+    position: absolute;
+}
+
+.wirebl {
+    border-left: 3px dashed black;
+    height: 150px;
+    margin-left: 757px;
+    position: absolute;
+    margin-top: 36px;
+
+}
+
+.cat {
+    margin-left: 750px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+
+.circle:hover {
+    background-color: #fff;
+    box-shadow:
+        0 0 60px 30px #f5f75c,
+        0 0 100px 60px #e3e751,
+        0 0 140px 90px #d5effc,
+        0 0 140px 90px #ffa,
+       0 0 140px 90px #fff;
+}
